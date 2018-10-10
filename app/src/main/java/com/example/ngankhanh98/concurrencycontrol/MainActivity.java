@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 MAX_PROGRESS = Integer.parseInt(txtDataBox.getText().toString());
-                
+
                 btnDoItAgain.setEnabled(false);
                 onStart();
             }// onClick
